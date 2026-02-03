@@ -23,5 +23,15 @@ func _on_body_entered(body: Node2D) -> void:
 			curr_cam.position = Vector2(curr_cam.position.x - viewport_width, curr_cam.position.y)
 		elif move_dir == "right" and body.global_position.x > curr_cam.position.x and body.direction.x > 0:
 			curr_cam.position = Vector2(curr_cam.position.x + viewport_width, curr_cam.position.y)
-		
-		
+			
+		##
+		if move_dir == "move_up" and body.global_position.y < curr_cam.position.y and body.direction.y < 0:
+			curr_cam.position = Vector2(curr_cam.position.x, curr_cam.position.y - viewport_height)
+		elif move_dir == "move_down" and body.global_position.y > curr_cam.position.y and body.direction.y > 0:
+			curr_cam.position = Vector2(curr_cam.position.x, curr_cam.position.y + viewport_height)
+		elif move_dir == "move_left" and body.global_position.x < curr_cam.position.x and body.direction.x < 0:
+			curr_cam.position = Vector2(curr_cam.position.x - viewport_width, curr_cam.position.y)
+		elif move_dir == "move_right" and body.global_position.x > curr_cam.position.x and body.direction.x > 0:
+			curr_cam.position = Vector2(curr_cam.position.x + viewport_width, curr_cam.position.y)
+			
+		##

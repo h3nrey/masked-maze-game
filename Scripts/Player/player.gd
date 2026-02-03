@@ -87,7 +87,9 @@ func _process(delta: float) -> void:
 func _physics_process(delta: float) -> void:
 	if not can_start:
 		return
-	direction = Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")
+	
+	direction = Input.get_vector("move_left", "move_right", "move_up", "move_down")
+	#direction = Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")
 
 	if(direction != Vector2.ZERO):
 		velocity = direction * SPEED
