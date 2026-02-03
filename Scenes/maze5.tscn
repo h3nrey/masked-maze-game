@@ -25,19 +25,64 @@ position = Vector2(170.00002, 120.000015)
 scale = Vector2(3.2860754, 2.5340414)
 
 [node name="Enemy" parent="." unique_id=172961995 instance=ExtResource("5_wwdt5")]
-position = Vector2(121, 176)
+position = Vector2(118, 172)
 
 [node name="Enemy2" parent="." unique_id=136872571 instance=ExtResource("5_wwdt5")]
-position = Vector2(990, 167)
+position = Vector2(989, 318)
 
 [node name="Enemy3" parent="." unique_id=497016550 instance=ExtResource("5_wwdt5")]
-position = Vector2(761, 241)
+position = Vector2(759, 204)
 
 [node name="Enemy4" parent="." unique_id=1382657448 instance=ExtResource("5_wwdt5")]
-position = Vector2(456, 157)
+position = Vector2(497, 403)
 
 [node name="Enemy5" parent="." unique_id=912745825 instance=ExtResource("5_wwdt5")]
-position = Vector2(874, 251)
+position = Vector2(399, 300)
+
+[node name="Enemy6" parent="." unique_id=1104529975 instance=ExtResource("5_wwdt5")]
+position = Vector2(619, 422)
+
+[node name="Enemy7" parent="." unique_id=1941904865 instance=ExtResource("5_wwdt5")]
+position = Vector2(975, 462)
+
+[node name="Enemy8" parent="." unique_id=330295040 instance=ExtResource("5_wwdt5")]
+position = Vector2(656, 65)
+
+[node name="Enemy9" parent="." unique_id=447650159 instance=ExtResource("5_wwdt5")]
+position = Vector2(656, 306)
+
+[node name="Enemy10" parent="." unique_id=82669956 instance=ExtResource("5_wwdt5")]
+position = Vector2(849, 358)
+
+[node name="Enemy11" parent="." unique_id=417493378 instance=ExtResource("5_wwdt5")]
+position = Vector2(563, 165)
+
+[node name="Enemy12" parent="." unique_id=603355300 instance=ExtResource("5_wwdt5")]
+position = Vector2(744, 401)
+
+[node name="Enemy13" parent="." unique_id=1247523975 instance=ExtResource("5_wwdt5")]
+position = Vector2(121, 303)
+
+[node name="Enemy14" parent="." unique_id=481852946 instance=ExtResource("5_wwdt5")]
+position = Vector2(269, 211)
+
+[node name="Enemy15" parent="." unique_id=896415395 instance=ExtResource("5_wwdt5")]
+position = Vector2(223, 63)
+
+[node name="Enemy16" parent="." unique_id=1588716846 instance=ExtResource("5_wwdt5")]
+position = Vector2(338, 162)
+
+[node name="Enemy17" parent="." unique_id=72672719 instance=ExtResource("5_wwdt5")]
+position = Vector2(432, 166)
+
+[node name="Enemy18" parent="." unique_id=920434843 instance=ExtResource("5_wwdt5")]
+position = Vector2(989, 114)
+
+[node name="Enemy19" parent="." unique_id=9192303 instance=ExtResource("5_wwdt5")]
+position = Vector2(884, 218)
+
+[node name="Enemy20" parent="." unique_id=490301691 instance=ExtResource("5_wwdt5")]
+position = Vector2(773, 73)
 
 [node name="SceneSwitcher" parent="." unique_id=1437716137 node_paths=PackedStringArray("node") instance=ExtResource("4_ycgwp")]
 position = Vector2(117, 604)
